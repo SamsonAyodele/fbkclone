@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eceff4;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 130px;
+}
+
+.section-one {
+  padding-right: 60px;
+}
+
+h1 {
+  font-size: 70px;
+  color: #0000ff;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: default;
+}
+
+p {
+  padding: 10px;
+  width: 480px;
+  height: 50px;
+  font-size: 25px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-two {
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-in-forms {
+  border: 10px solid #fff;
+  border-radius: 8px;
+  box-shadow: #eceff4;
+  background-color: #ffffff;
+  width: 400px;
+  height: 350px;
+}
+
+input,
+#btn {
+  height: 50px;
+  width: 370px;
+  border-radius: 5px;
+  border: 1px solid rgb(98, 91, 91);
+  font-family: tahoma;
+}
+
+#btn {
+  background-color: #3333e1;
+  color: #ffffff;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+input[placeholder] {
+  padding: 15px;
+  font-size: 1em;
+}
+
+input:focus {
+  border: #3333e1;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #0000ff;
+}
+
+#new-acc {
+  color: white;
+  font-weight: 200;
+  background-color: #69d682;
+  height: 45px;
+  width: 210px;
+  border-radius: 8px;
+  border: 2px solid #69d682;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.for-celebrity {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#footer {
+  color: black;
+}
+
+@media (max-width: 600px) {
+  #main {
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+  }
+
+  .section-one {
+    padding-right: 0px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  p {
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .section-two {
+    padding-top: 60px;
+  }
+
+  .log-in-forms {
+    width: 400px;
+  }
+
+  input,
+  #btn {
+    width: 370px;
+  }
+}
+
+@media (max-width: 350px) {
+  #main {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .section-one {
+    padding-right: 0px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    padding: 10px;
+    width: 330px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .section-two {
+    padding-top: 60px;
+  }
+
+  .log-in-forms {
+    width: 300px;
+  }
+
+  input,
+  #btn {
+    width: 270px;
+  }
+
+  .for-celebrity {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1em;
+  }
+}

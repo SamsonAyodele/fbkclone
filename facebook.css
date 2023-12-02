@@ -1,55 +1,57 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #eceff4;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #eceff4;
 }
-#main{
-    margin-top: 180px;
+#main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 180px;
     margin-left: 150px;
 }
-h1{
-    font-size: 70px;
-    color: #4267b2;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    cursor: default;
+h1 {
+  font-size: 70px;
+  color: #0000ff;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: default;
 }
-p{
-   font-size: 30px;
-   color: black;
-   font-family: Arial, Helvetica, sans-serif;
-   margin-top:-50;
-   font-family: 'Tahoma',;
+p {
+  font-size: 30px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -50;
+  font-family: "Tahoma";
 }
-.log-in{
-    vertical-align: center;
-    text-align: center;
-    float: right;
-    margin-right: 170px;
-    margin-left: 100px;
-    margin-top: -440px;
-    padding-top:1.5rem;
-    width: 350px;
-    height: 330px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: grey;
+.log-in {
+  vertical-align: center;
+  text-align: center;
+  float: right;
+  margin-right: 170px;
+  margin-left: 100px;
+  margin-top: -440px;
+  padding-top: 1.5rem;
+  width: 350px;
+  height: 330px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: grey;
 }
- .text{
-    margin: 8px;
-    height: 45px;
-    width: 310px;
-    border-radius: 5px;
-    font-family: tahoma;
-    align-items: center;
+.text {
+  margin: 8px;
+  height: 45px;
+  width: 310px;
+  border-radius: 5px;
+  font-family: tahoma;
+  align-items: center;
 }
 
-.text:focus{
-    border: 0.2em solid blue;
-    opacity: 0.5em;
+.text:focus {
+  border: 0.2em solid blue;
+  opacity: 0.5em;
 }
-#btn{
+#btn {
   text-align: center;
   width: 300px;
   height: 40px;
@@ -62,45 +64,41 @@ p{
   font-size: large;
 }
 a {
-    text-decoration: none;
-    text-align: center;
-    font-size: 15px;
-    font-weight: normal;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: normal;
 }
-#new-acc{
-    color: white;
-    font-weight: bold;
-    background-color: #6b8e23;
-    height: 40px;
-    width: 200px;
-    border-radius: 8px;
+#new-acc {
+  color: white;
+  font-weight: bold;
+  background-color: #6b8e23;
+  height: 40px;
+  width: 200px;
+  border-radius: 8px;
 }
-.for-celebrity{
-    margin-top: 10rem;
-    margin-left: 64rem;
+.for-celebrity {
+  margin-top: 10rem;
+  margin-left: 64rem;
 }
 
-@media screen and (max-width: 1400px){
-    #main{
-        margin-top: 180px;
-        margin-left: 150px;
-    }
+@media screen and (max-width: 1400px) {
+  #main {
+    margin-top: 180px;
+    margin-left: 150px;
+  }
 }
 
 @media screen and (min-width: 800px) {
-    #main {
-        display: block;
-        margin-bottom: 16rem;
-        margin-left: 20rem;
-    }
-    h1{
-        font-size: 3rem;
-        color: #4267b2;
-        font-weight: bold;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+  #main {
+    display: block;
+    margin-bottom: 16rem;
+    margin-left: 20rem;
+  }
+  h1 {
+    font-size: 3rem;
+    color: #4267b2;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
 }
-
- 
-
-
