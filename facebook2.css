@@ -113,7 +113,7 @@ a {
   color: black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 688px) {
   #main {
     flex-direction: column;
     justify-content: center;
