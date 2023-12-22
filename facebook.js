@@ -1,7 +1,7 @@
 const loginFunction = () => {
   let user = JSON.parse(localStorage.getItem("user"));
   if (inputs.email === user.email && inputs.password === user.password) {
-    alert("You have successfully login");
+    alert("You have successfully logged in");
   } else {
     alert("incorrect email or password");
   }
