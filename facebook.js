@@ -1,17 +1,22 @@
-
-
-const myLoginFunction = () => {
-    localStorage.setItem("username" , "idowusamson0777@gmail.com");
-    localStorage.setItem("password" , "ayodele777");
-    alert("Logged-in");
+const loginFunction = () => {
+  let user = JSON.parse(localStorage.getItem("user"));
+  if (inputs.email === user.email && inputs.password === user.password) {
+    alert("You have successfully login");
+  } else {
+    alert("incorrect email or password");
+  }
 };
 
-const myCreateFunction = () => {
-    alert("created-succesfully");
+let inputs = {
+  email: document.getElementById("email").value,
+  password: document.getElementById("password").value,
 };
 
-document.getElementById("new-acc").addEventListener("click" , myCreateFunction);
+const createFunction = () => {
+  localStorage.setItem("user", JSON.stringify(inputs));
+  alert("created-successfully");
+};
 
-document.getElementById("btn").addEventListener("click" , myLoginFunction);
+document.getElementById("new-acc").addEventListener("click", createFunction);
 
-
+document.getElementById("btn").addEventListener("click", loginFunction);
